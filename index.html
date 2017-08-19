@@ -1,0 +1,143 @@
+<!doctype html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7" lang=""> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8" lang=""> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9" lang=""> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang=""> <!--<![endif]-->
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+        <title></title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="apple-touch-icon" href="apple-touch-icon.png">
+        
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.1/css/materialize.min.css" integrity="sha256-mkKV3FUh67dtli09bVbaYyM1526XgR92cz1uKarE1jo=" crossorigin="anonymous" />
+
+        <link rel="stylesheet" href="css/normalize.min.css">
+        <link rel="stylesheet" href="css/main.css">
+
+        <script src="js/vendor/modernizr-2.8.3-respond-1.4.2.min.js"></script>
+    </head>
+    <body>
+        <!--[if lt IE 8]>
+            <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
+        <![endif]-->
+
+        <div class="header-container">
+            <header class="wrapper clearfix">
+                <h1 class="title">Man Parvesh's Research page</h1>
+                <nav>
+                    <ul>
+                        <li><a href="javascript:void(0)" id="show-publications">Publications</a></li>
+                        <li><a href="javascript:void(0)" id="show-projects">Projects</a></li>
+                    </ul>
+                </nav>
+            </header>
+        </div>
+
+        <div class="main-container">
+            <div class="main wrapper clearfix">
+
+                <article>
+                    <div id="article-publications">
+                        <h2>Publications</h2>
+                        <hr>
+                        <section id="publication-CONTRADIS">
+                            Partha Das, <b>Man Parvesh SR</b> and Bharat TV, <i><a href="http://manparvesh.com/papers/3.%20IGC_2016_paper_350.pdf">“Experimental analysis of salt diffusion in compacted clays by Through Diffusion and Half-Cell technique”</a></i>, <a href="http://igschennai.in/IGC2016_IIT_Madras/">Indian Geotechnical Conference IGC 2016 (15-17 December 2016, IIT Madras, Chennai, India)</a>
+                            <p>Related project:</p>
+                            <a href="#project-CONTRADIS" onclick="showProjects();"><div class="chip">CONTRADIS</div></a>
+                        </section>
+                        <hr>
+                        <section>
+                            Partha Das, <b>Man Parvesh SR</b> and Bharat TV, <i><a href="http://manparvesh.com/papers/SALT%20DIFFUSION%20IN%20COMPACTED%20PLASTIC%20CLAY.pdf">“Salt Diffusion in Compacted Plastic Clay: Experimental and Theoretical Evaluation”</a></i>, <a href="http://igsbangalore.com/SE2016/">International Conference on Soil and Environment (22-23 July, 2016)</a>
+                            <p>Related project:</p>
+                            <a href="#project-CONTRADIS" onclick="showProjects();"><div class="chip">CONTRADIS</div></a>
+                        </section>
+                        <hr>
+                        <section id="publication-soil-classification">
+                            <b>Man Parvesh SR</b> and A. Murali Krishna, <i><a href="http://manparvesh.com/papers/Development%20of%20an%20Android%20Application%20for%20Geotechnical%20Engineers.pdf">“Development of an Android application for Geotechnical engineers”</a></i>, <a href="http://www.iitg.ac.in/civil/NESGC2014/NESGC2014.htm">NES-GeoCongress on advancements in Geotechnical engineering (18 October, 2014)</a>
+                            <p>Related project:</p>
+                            <a href="#project-soil-classification" onclick="showProjects();"><div class="chip">Soil Classification Systems</div></a>
+                        </section>
+                    </div>
+                    <div id="article-projects" style="display: none;">
+                        <h2>Projects</h2>
+                        <hr>
+                        <section id="project-CONTRADIS">
+                            <div class="row">
+                                <div class="col s12 m12">
+                                  <div class="card blue-grey darken-1">
+                                    <div class="card-content white-text">
+                                      <span class="card-title">CONTRADIS</span>
+                                        <hr>
+                                        <p>"CONtaminant Transport due to Diffusion in Soil"</p>
+                                        <br>
+                                        <p>CONTRADIS is a software package that is built for the purpose of analyzing the experimental readings obtained from various methods that have been used by the previous studies in the field of contaminant transport in soils. There are different methods that use different parameters to study the flow of different ions/ contaminants through a given sample of soil. This package demonstrates two of those methods, namely, Through Diffusion technique and Half-Cell Method.</p>
+                                        <br>
+                                        <p>This software is also capable of using the contaminant transport data from experiments and predicting the diffusion and linear sorption parameters of the soils, as used in Fick’s second law. The software is verified on the synthetic data obtained from calculated concentration values as an input data.</p>
+                                    </div>
+                                      <div class="white-text" style="padding: 20px">
+                                        Tags:
+                                        <div class="chip">Particle Swarm Optimization</div>
+                                        <div class="chip">Glowworm Swarm Optimization</div>
+                                        <div class="chip">Java</div>
+                                      </div>
+                                    <div class="card-action">
+                                      <a href="http://manparvesh.com/CONTRADIS/" target="_blank">More details</a>
+                                      <a href="#publication-CONTRADIS" onclick="showPublications();">Publications</a>
+                                    </div>
+                                  </div>
+                                </div>
+                              </div>
+                        </section>
+                        <section id="project-soil-classification">
+                            <div class="row">
+                                <div class="col s12 m12">
+                                  <div class="card blue-grey darken-1">
+                                    <div class="card-content white-text">
+                                      <span class="card-title">Soil Classification Systems</span>
+                                        <hr>
+                                        <p>A simple Android app which was developed with an objective of Classification of soil samples by the field engineers. Using Sieve analysis data and Atterberg Limits for different soils, soils were classified based on different classification systems. Classification Systems used in this application were: AASHTO, USCS and ISSCS. For clarifications regarding various terms and systems used in the application, please check the About page.</p>
+                                    </div>
+                                      <div class="white-text" style="padding: 20px">
+                                        Tags:
+                                        <div class="chip">Soil Classification</div>
+                                        <div class="chip">Android</div>
+                                      </div>
+                                    <div class="card-action">
+                                      <a href="https://play.google.com/store/apps/details?id=summer14.manparvesh.soil12" target="_blank">More details</a>
+                                        <a href="#publication-soil-classification" onclick="showPublications();">Publications</a>
+                                    </div>
+                                  </div>
+                                </div>
+                              </div>
+                        </section>
+                    </div>
+                </article>
+
+                <aside>
+                    <div id="aside-publications">
+                        This is a page showcasing my publications. For research projects, click on projects.
+                    </div>
+                    <div id="aside-projects" style="display: none;">
+                        This is a page showcasing my research projects.
+                    </div>
+                </aside>
+
+            </div> <!-- #main -->
+        </div> <!-- #main-container -->
+
+        <div class="footer-container">
+            <footer class="wrapper">
+                <h5><a href="http://manparvesh.com">&copy; Man Parvesh Singh Randhawa</a></h5>
+            </footer>
+        </div>
+
+        <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+        <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.11.2.min.js"><\/script>')</script>
+
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.1/js/materialize.min.js" integrity="sha256-3mqgTUhHNgfXgjrzjPOaW03DdQ9hgW92BApzLREoRoA=" crossorigin="anonymous"></script>
+        
+        <script src="js/main.js"></script>
+    </body>
+</html>
